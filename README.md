@@ -65,11 +65,6 @@
    - Method: GET
    - Description: Obtain a list of all added cities.
 
-3. **Airport Recommendations**
-   - Endpoint: `/airport_recommendations`
-   - Method: GET
-   - Description: Get recommendations for airports that can open food services.
-
 ## Database Structure
 
 The MongoDB database is structured as follows:
