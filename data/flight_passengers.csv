@@ -1,0 +1,101 @@
+airline,from,to,day,month,year,age,gender,reason,stay,transit,connection,wait
+TAP Portugal,OIT,CND,19,1,2021,31,female,Business/Work,Hotel,Airport cab,True,128
+Caribbean Airlines,YKS,HGH,31,5,2013,22,male,Back Home,Home,Own car,False,0
+JetBlue,NLP,TXL,22,9,2018,81,unspecified,Back Home,Home,Mobility as a service,False,0
+Delta,DEL,MEZ,19,5,2018,31,undisclosed,Business/Work,Friend/Family,Mobility as a service,False,0
+LATAM,TYN,ODS,27,3,2019,9,unspecified,Back Home,Home,Mobility as a service,False,0
+FlyOne,UTT,EMY,30,10,2021,55,unspecified,On vacation/Pleasure,Hotel,Airport cab,True,682
+Sun Country,SDQ,HLA,21,4,2015,24,female,On vacation/Pleasure,Short-term homestay,Mobility as a service,True,635
+Ural Airlines,CAS,NLP,20,2,2021,68,undisclosed,Business/Work,Hotel,Car rental,True,226
+Middle East Airlines,NCS,RIX,11,3,2022,29,male,On vacation/Pleasure,Short-term homestay,Public Transportation,True,435
+Emirates,IXB,MLE,27,2,2019,11,female,On vacation/Pleasure,Short-term homestay,Pickup,True,616
+Aer Lingus,ACC,SVQ,18,3,2015,11,female,On vacation/Pleasure,Short-term homestay,Public Transportation,False,0
+Lion Airlines,KOJ,NLV,17,4,2019,74,undisclosed,Back Home,Home,Airport cab,False,0
+Air France,LRM,LLW,22,3,2020,88,female,On vacation/Pleasure,Hotel,Airport cab,False,0
+Air New Zealand,CMN,AUE,14,1,2022,22,unspecified,Back Home,Home,Public Transportation,False,0
+Air Tahiti Nui,DLC,FDF,19,9,2015,40,male,Business/Work,Hotel,Pickup,True,533
+HK Express,AAC,UVL,7,7,2015,13,undisclosed,On vacation/Pleasure,Friend/Family,Mobility as a service,False,0
+Luxair,KCZ,TRF,25,10,2021,86,undisclosed,Back Home,Home,Public Transportation,False,0
+Air Namibia,SPY,ABV,5,6,2022,45,undisclosed,On vacation/Pleasure,Friend/Family,Mobility as a service,False,0
+Air Dolomiti,MPA,KTM,6,9,2019,21,unspecified,Business/Work,Hotel,Pickup,True,334
+Virgin Atlantic,HRB,KAN,22,4,2020,51,male,Back Home,Home,Pickup,False,0
+Spring Airlines,STV,ALY,19,9,2022,16,undisclosed,Business/Work,Friend/Family,Mobility as a service,False,0
+LOT Polish Airlines,WVB,RBA,18,8,2018,5,male,Back Home,Home,Own car,False,0
+Silver,CRF,MFU,4,5,2013,76,male,Business/Work,Short-term homestay,Public Transportation,False,0
+Frontier,CGP,HAM,10,7,2017,28,undisclosed,On vacation/Pleasure,Friend/Family,Pickup,False,0
+Volotea,DAR,BQN,6,7,2018,89,unspecified,Back Home,Home,Mobility as a service,False,0
+Pegasus Airlines,HKG,ORK,21,11,2021,76,female,On vacation/Pleasure,Friend/Family,Public Transportation,True,452
+Sunclass Airlines,INN,SEZ,25,12,2016,74,male,Business/Work,Friend/Family,Public Transportation,True,174
+Air Europa,MJC,MMK,21,6,2015,4,male,Back Home,Home,Pickup,False,0
+Air Corsica,ALJ,PSE,31,8,2014,40,male,Business/Work,Short-term homestay,Public Transportation,False,0
+TUIfly,TSB,BON,18,10,2013,1,male,Back Home,Home,Airport cab,False,0
+Edelweiss Air,LUJ,FDF,3,9,2022,39,female,Business/Work,Friend/Family,Airport cab,False,0
+Vueling Airlines,KIN,TGU,24,7,2018,40,male,Business/Work,Friend/Family,Airport cab,False,0
+Silver,SIP,DJO,28,5,2021,29,unspecified,On vacation/Pleasure,Short-term homestay,Mobility as a service,True,452
+EVA Air,ASJ,COO,29,10,2019,8,unspecified,Business/Work,Short-term homestay,Pickup,False,0
+Cayman Airways,PRY,STX,9,8,2019,29,female,Business/Work,Short-term homestay,Public Transportation,False,0
+Cathay Dragon,TIP,BOJ,22,4,2015,5,undisclosed,Back Home,Home,Mobility as a service,False,0
+KLM,CAG,OVB,29,5,2016,63,undisclosed,Business/Work,Short-term homestay,Airport cab,False,0
+Air North,GOT,SAP,4,4,2020,29,female,On vacation/Pleasure,Hotel,Airport cab,True,557
+Alitalia,AMD,RAJ,5,10,2021,67,female,On vacation/Pleasure,Friend/Family,Airport cab,True,173
+AirAsia X,DYU,ATZ,15,4,2016,21,undisclosed,On vacation/Pleasure,Hotel,Pickup,False,0
+Jetstar,WVB,CTS,17,3,2014,3,undisclosed,Back Home,Home,Mobility as a service,False,0
+Air Tahiti Nui,WAW,OKU,10,4,2022,53,unspecified,On vacation/Pleasure,Short-term homestay,Mobility as a service,True,359
+LATAM,SVQ,MFQ,26,7,2020,54,undisclosed,Business/Work,Short-term homestay,Airport cab,False,0
+Turkish Airlines,IBZ,BLZ,27,12,2022,60,female,Back Home,Home,Airport cab,False,0
+Helvetic Airways,TRV,RAK,4,11,2018,77,female,Business/Work,Hotel,Public Transportation,True,61
+Air India,TXL,BEG,19,5,2015,17,male,Business/Work,Short-term homestay,Public Transportation,False,0
+KLM,PUY,CPH,22,2,2023,22,undisclosed,On vacation/Pleasure,Hotel,Pickup,False,0
+Porter,BON,POP,17,4,2016,69,unspecified,Business/Work,Hotel,Pickup,True,171
+Jetstar,UVF,SID,6,1,2018,69,female,Business/Work,Short-term homestay,Pickup,False,0
+Caribbean Airlines,SKB,CAS,25,2,2020,80,unspecified,Business/Work,Hotel,Airport cab,False,0
+Jet2,BUG,TSE,11,6,2013,18,male,On vacation/Pleasure,Hotel,Mobility as a service,False,0
+Air North,ODS,TRV,16,1,2014,75,male,On vacation/Pleasure,Short-term homestay,Public Transportation,True,508
+Ryanair,ZSA,VID,25,9,2022,26,male,On vacation/Pleasure,Short-term homestay,Airport cab,False,0
+Air Corsica,TCB,GRJ,27,12,2022,70,unspecified,Business/Work,Friend/Family,Car rental,False,0
+WestJet,IXR,KSL,25,4,2013,88,male,On vacation/Pleasure,Short-term homestay,Airport cab,False,0
+Iberia,AUA,ITM,21,3,2015,16,male,On vacation/Pleasure,Hotel,Airport cab,False,0
+Avianca,HGO,CAI,15,8,2021,16,male,Business/Work,Short-term homestay,Public Transportation,False,0
+TAAG,QJU,CTS,29,1,2015,43,male,Back Home,Home,Mobility as a service,False,0
+IndiGo Airlines,IEV,SEW,21,5,2020,43,male,On vacation/Pleasure,Short-term homestay,Mobility as a service,False,0
+Volotea,UTT,CTU,14,1,2022,44,unspecified,Back Home,Home,Mobility as a service,False,0
+Rossiya - Russian Airlines,BUD,SEB,5,5,2018,17,female,Back Home,Home,Public Transportation,False,0
+TUI UK,TAS,BUD,26,9,2013,9,male,On vacation/Pleasure,Hotel,Pickup,True,585
+SriLankan Airlines,LBV,FKI,28,5,2014,34,unspecified,On vacation/Pleasure,Short-term homestay,Public Transportation,True,183
+Kenya Airways,KIX,SDH,17,8,2020,65,male,Back Home,Home,Pickup,False,0
+Bamboo Airways,BUH,TBS,16,2,2021,69,female,Business/Work,Hotel,Airport cab,False,0
+Air India Express,MJL,MEZ,29,1,2013,64,female,Back Home,Home,Own car,False,0
+Aerolineas Argentinas,ODA,VIJ,21,4,2017,20,undisclosed,Back Home,Home,Pickup,False,0
+Air Corsica,TRV,NCS,25,12,2013,44,undisclosed,Back Home,Home,Pickup,False,0
+LOT Polish Airlines,PBH,VNO,19,11,2016,89,female,On vacation/Pleasure,Hotel,Airport cab,True,526
+Cayman Airways,UVL,MMJ,2,4,2015,23,female,On vacation/Pleasure,Friend/Family,Mobility as a service,True,333
+Air Europa,JAI,SLU,18,9,2014,46,female,Back Home,Home,Pickup,False,0
+Vueling Airlines,NDJ,IXR,19,1,2021,34,male,Business/Work,Short-term homestay,Public Transportation,False,0
+SAS,UKB,NAG,25,4,2013,22,unspecified,Back Home,Home,Own car,False,0
+Oman Air,HYD,SZX,29,3,2017,5,female,Business/Work,Short-term homestay,Airport cab,True,655
+Vistara,NAG,AXA,3,1,2016,12,unspecified,Business/Work,Friend/Family,Airport cab,True,400
+Air Serbia,NAS,TYO,4,12,2017,76,undisclosed,On vacation/Pleasure,Hotel,Airport cab,True,94
+Nordwind Airlines,LWO,PBH,8,11,2018,84,unspecified,On vacation/Pleasure,Friend/Family,Public Transportation,False,0
+Air Baltic,TAO,TRF,17,11,2018,23,male,Back Home,Home,Airport cab,False,0
+Aegean Airlines,PRN,DAC,16,5,2018,56,undisclosed,Business/Work,Short-term homestay,Car rental,False,0
+Air Mauritius,TNA,OKA,10,4,2022,18,unspecified,On vacation/Pleasure,Short-term homestay,Mobility as a service,False,0
+Gulf Air,SUV,FKS,24,1,2020,43,undisclosed,On vacation/Pleasure,Short-term homestay,Public Transportation,True,198
+Qatar Airways,OMD,MBA,20,11,2018,33,male,Business/Work,Friend/Family,Public Transportation,True,398
+flydubai,SDH,SEL,12,8,2016,25,undisclosed,Back Home,Home,Airport cab,False,0
+HK Express,JMK,TGU,5,2,2020,71,male,On vacation/Pleasure,Hotel,Car rental,True,203
+SpiceJet,ADY,SKD,7,8,2020,74,male,Business/Work,Hotel,Mobility as a service,False,0
+Viva Aerobus,NGO,ZSS,9,9,2015,60,male,Business/Work,Hotel,Mobility as a service,True,436
+Cathay Pacific,CGQ,OUZ,18,5,2019,69,male,Business/Work,Friend/Family,Mobility as a service,True,488
+Copa Airlines,HND,TIA,17,3,2017,38,undisclosed,Business/Work,Short-term homestay,Pickup,True,250
+Norwegian Air Shuttle,DME,BIV,10,12,2014,22,female,Back Home,Home,Public Transportation,False,0
+Copa Airlines,MEZ,IBZ,27,2,2022,43,unspecified,Business/Work,Hotel,Pickup,False,0
+Oman Air,CMB,SAP,13,6,2018,13,female,Back Home,Home,Pickup,False,0
+Viva Aerobus,QCB,CTS,6,9,2015,3,female,Business/Work,Friend/Family,Public Transportation,True,474
+Norwegian Air Shuttle,ATQ,SKB,20,3,2021,81,undisclosed,Business/Work,Friend/Family,Airport cab,True,353
+Air Arabia,GBE,HYD,12,8,2020,62,unspecified,On vacation/Pleasure,Hotel,Public Transportation,True,466
+Cayman Airways,DJO,CKG,8,12,2016,10,female,Back Home,Home,Pickup,False,0
+China Southern,NEV,HYD,2,4,2018,78,unspecified,Back Home,Home,Mobility as a service,False,0
+Azerbaijan Hava Yollary,MEZ,OIT,8,12,2022,2,male,Business/Work,Short-term homestay,Public Transportation,True,279
+SriLankan Airlines,SDS,NRT,26,3,2023,41,unspecified,Business/Work,Hotel,Public Transportation,False,0
+Sunclass Airlines,RSD,ULU,29,12,2013,23,unspecified,Back Home,Home,Airport cab,False,0
+Air Serbia,SKP,QUF,21,6,2014,54,male,Back Home,Home,Own car,False,0

@@ -1,35 +1,97 @@
-# iteso-bdnr-mongodb
+# Project Name
 
-A place to share mongodb app code
+**Description**: This Python project utilizes MongoDB to manage and provide information about flights, cities, and recommendations for airports that can open food services.
 
-### Setup a python virtual env with python cassandra installed
-```
-# If pip is not present in you system
-sudo apt update
-sudo apt install python3-pip
+## Table of Contents
 
-# Install and activate virtual env
-python3 -m pip install virtualenv
-python3 -m venv ./venv
-source ./venv/bin/activate
+- [Features](#features)
+- [Requirements](#requirements)
+- [Installation](#installation)
+- [Usage](#usage)
+- [Endpoints](#endpoints)
+- [Database Structure](#database-structure)
+- [Contributing](#contributing)
+- [License](#license)
 
-# Install project python requirements
-python3 -m pip install -r requirements.txt
-```
+## Features
 
-### To run the API service
-```
-python3 -m uvicorn main:app --reload
-```
+1. **List Flights**: Retrieve a list of flights from all cities.
+2. **List Cities**: Obtain a list of all added cities.
+3. **Airport Recommendations**: Get recommendations for airports that can open food services.
 
-### To load data
-Ensure you have a running mongodb instance
-i.e.:
-```
-docker run --name mongodb -d -p 27017:27017 mongo
-```
-Once your API service is running (see step above), run the populate script
-```
-cd data/
-python3 populate.py
-```
+## Requirements
+
+- Python 3.x
+- MongoDB (Make sure your MongoDB server is running)
+
+## Installation
+
+1. Clone the repository:
+
+    ```bash
+    git clone https://github.com/your-username/your-repo.git
+    cd your-repo
+    ```
+
+2. Install the required Python packages:
+
+    ```bash
+    pip install -r requirements.txt
+    ```
+
+3. Set up your MongoDB connection in the application.
+
+    - Open the `config.py` file and update the MongoDB connection settings.
+
+4. Run the application:
+
+    ```bash
+    python main.py
+    ```
+
+## Usage
+
+- Access the API at `http://localhost:8000` (or the appropriate URL).
+
+## Endpoints
+
+1. **List All Flights**
+   - Endpoint: `/list_flights`
+   - Method: GET
+   - Description: Retrieve a list of flights from all cities.
+
+2. **List All Cities**
+   - Endpoint: `/list_cities`
+   - Method: GET
+   - Description: Obtain a list of all added cities.
+
+3. **Airport Recommendations**
+   - Endpoint: `/airport_recommendations`
+   - Method: GET
+   - Description: Get recommendations for airports that can open food services.
+
+## Database Structure
+
+The MongoDB database is structured as follows:
+
+```json
+{
+    "City1": {
+        "airport": {
+            "city_name": "City1",
+            "airport_dest": "Airport1",
+            "flights": [
+                {
+                    "airline": "Airline1",
+                    "from_location": "City1",
+                    "to_location": "Destination1",
+                    // Other flight details
+                }
+            ]
+        }
+    },
+    "City2": {
+        // City2 details
+    },
+    // Other cities
+}
