@@ -23,10 +23,10 @@ def list_flights():
     response = requests.get(endpoint)
     if response.ok:
         json_resp = response.json()
-        for flight in json_resp['flights']:
-            print(f"-> Flight from: {flight['from']} to: {flight['to']}")
+        for flight in json_resp:
+            print(f"-> Flight from: {flight['from_location']} to: {flight['to_location']}")
         
-        return json_resp['flights']
+        return json_resp
     else:
         print(f"Error: {response}")
 
@@ -40,10 +40,10 @@ def get_recomended_airports_food_service():
     city_map = {}
 
     for flight in res:
-        if not flight['to'] in city_map:
-            city_map[flight['to']] = []
+        if not flight['from_location'] in city_map:
+            city_map[flight['from_location']] = []
         
-        city_map[flight['to']].append(flight)
+        city_map[flight['from_location']].append(flight)
 
     output = []
     # calculate avg wait-time
