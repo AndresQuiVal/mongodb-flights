@@ -58,7 +58,6 @@ def recommended_airports_food_service(request: Request):
 
 @router.get("/list_cities", response_description="Get all cities", response_model=List[City])
 def list_cities(request: Request):
-    import pdb; pdb.set_trace()
     cities = list(request.app.database.keys())
     return {"cities": cities}
 
@@ -66,9 +65,6 @@ def list_cities(request: Request):
 def list_flights(request: Request):
     all_flights = []
 
-    # for city_name, city_data in request.app.database['cities'].items():
-    #     flights = city_data.get("airport", {}).get("flights", [])
-    #     all_flights.extend(flights)
     r = list(request.app.database['cities'].find())
     for item in r:
         item['_id'] = str(item['_id'])
