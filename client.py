@@ -66,7 +66,19 @@ def get_recomended_airports_food_service():
 
     return output
 
+
+def get_recomended_airports_food_service_ag():
+    suffix = "/flights/recommended_airports_food_service"
+    endpoint = FLIGHTS_API_URL + suffix
+    response = requests.get(endpoint)
+    if response.ok:
+        json_resp = response.json()
+        for flight in json_resp:
+            print(f"-> GOOD CITY FOR FOOD MARKETPLACE: {flight}")
         
+        return json_resp
+    else:
+        print(f"Error: {response}")
 
     
 
@@ -75,7 +87,7 @@ def main():
 
     parser = argparse.ArgumentParser()
 
-    list_of_actions = ["list", "recommended"]
+    list_of_actions = ["list", "recommended", "recommended-ag"]
     parser.add_argument("action", choices=list_of_actions,
             help="Action to be user for the books library")
     args = parser.parse_args()
@@ -84,6 +96,8 @@ def main():
         list_flights()
     elif args.action == "recommended":
         get_recomended_airports_food_service()
+    elif args.action == "recommended-ag":
+        get_recomended_airports_food_service_ag()
 
 if __name__ == "__main__":
     main()

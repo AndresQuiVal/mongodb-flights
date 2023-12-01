@@ -37,10 +37,23 @@ def create_flight(city_name: str, request: Request, flight: Flight = Body(...)):
     
     raise HTTPException(status_code=404, detail=f"City {city_name} not found")
     
-
         
     
-    
+@router.get("/recommended_airports_food_service", response_description="Get recommended airports for food service", response_model=List[str])
+def recommended_airports_food_service(request: Request):
+    # Aggregate query to calculate average wait time and count connections for each city
+    pipeline = [
+        {"$unwind": "$airport.flights"},
+        {"$group": {"_id": "$airport.flights.from_location", "wait_avg": {"$avg": "$airport.flights.wait"}}},
+        {"$match": {"wait_avg": {"$gte": 30}}}
+    ]
+
+    output = []
+    cursor = request.app.database['cities'].aggregate(pipeline)
+    for elem in cursor:
+        output.append(elem['_id'])
+
+    return output
 
 
 @router.get("/list_cities", response_description="Get all cities", response_model=List[City])
